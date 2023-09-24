@@ -56,6 +56,7 @@ Installation
     :doc:`CLI </usage/cli>`
         DEPRECATED (to be removed in v3) - CLI is included in the base installation, and this group is no longer
         required to use the CLI.
+
         :code:`pip install litestar[cli]`
 
     :doc:`Jinja Templating </usage/templating>`
