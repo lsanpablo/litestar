@@ -5,7 +5,15 @@ Litestar provides a convenient command line interface (CLI) for running and mana
 powered by `click <https://click.palletsprojects.com/>`_, `rich <https://rich.readthedocs.io>`_,
 and `rich-click <https://github.com/ewels/rich-click>`_.
 
-The CLI and its dependencies are included by default. You can access the CLI functionality through the ``litestar`` command.
+Enabling the serving an application
+-----------------------------------
+
+The CLI and its dependencies are included by default. However, if you want to run your application,
+you'll need ``uvicorn`` which is part of the ``standard`` extra.
+
+.. code-block:: shell
+   pip install litestar[standard]
+Once you have installed ``standard``, you'll have access to the ``litestar run`` command.
 
 Autodiscovery
 -------------
