@@ -54,7 +54,7 @@ Installation
         :code:`pip install litestar[sqlalchemy]`
 
     :doc:`CLI </usage/cli>`
-        DEPRECATED (to be removed in v3) - CLI is included in the base installation, and this group is no longer
+        DEPRECATED (to be removed in v3) - Base installation now includes the CLI dependencies, and this group is no longer
         required to use the CLI.
 
         :code:`pip install litestar[cli]`
