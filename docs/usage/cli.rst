@@ -12,7 +12,9 @@ The CLI and its dependencies are included by default. However, if you want to ru
 you'll need ``uvicorn`` which is part of the ``standard`` extra.
 
 .. code-block:: shell
+
    pip install litestar[standard]
+
 Once you have installed ``standard``, you'll have access to the ``litestar run`` command.
 
 Autodiscovery
