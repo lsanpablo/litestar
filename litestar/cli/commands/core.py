@@ -114,7 +114,7 @@ def run_command(
 
     if not UVICORN_INSTALLED:
         console.print("uvicorn is not installed. Please install the standard group,"
-                      " litestar\\[standard\\], to use this command.")
+                      " litestar\[standard], to use this command.")
         sys.exit(1)
 
     if callable(ctx.obj):
