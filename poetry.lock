@@ -4286,7 +4286,7 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 annotated-types = ["annotated-types"]
 attrs = ["attrs"]
 brotli = ["brotli"]
-cli = []
+cli = ["jsbeautifier", "uvicorn"]
 cryptography = ["cryptography"]
 full = ["advanced-alchemy", "annotated-types", "attrs", "brotli", "click", "cryptography", "jinja2", "jsbeautifier", "mako", "minijinja", "opentelemetry-instrumentation-asgi", "piccolo", "picologging", "prometheus-client", "pydantic", "pydantic-extra-types", "python-jose", "redis", "rich", "rich-click", "structlog", "uvicorn"]
 jinja = ["jinja2"]
@@ -4307,4 +4307,4 @@ structlog = ["structlog"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8,<4.0"
-content-hash = "a865d6a8adef64dcd03b7100d7271889911502de8950d3737ae36354eeacf3fc"
+content-hash = "bfa50074a6d2ff44907cb26457feb3c187500fdb4faf79e18036c4f1d377770f"

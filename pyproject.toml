@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "litestar"
-version = "2.0.0"
+version = "2.1.0"
 description = "Litestar - A production-ready, highly performant, extensible ASGI API Framework"
 authors = [
     "Cody Fincher <cody.fincher@gmail.com>",
@@ -166,7 +166,7 @@ types-redis = "*"
 annotated-types = ["annotated-types"]
 attrs = ["attrs"]
 brotli = ["brotli"]
-cli = []
+cli = ["jsbeautifier", "uvicorn"]
 cryptography = ["cryptography"]
 jinja = ["jinja2"]
 jsbeautifier = ["jsbeautifier"]
