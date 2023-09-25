@@ -187,8 +187,6 @@ full = [
     "annotated-types",
     "attrs",
     "brotli",
-    "click",
-    "rich-click",
     "cryptography",
     "jinja2",
     "jsbeautifier",
@@ -202,7 +200,6 @@ full = [
     "pydantic-extra-types",
     "python-jose",
     "redis",
-    "rich",
     "structlog",
     "uvicorn",
     "advanced-alchemy"
